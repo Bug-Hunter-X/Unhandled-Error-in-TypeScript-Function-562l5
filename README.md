@@ -1,0 +1,3 @@
+# Unhandled Error in TypeScript Function
+
+This repository demonstrates a common error in TypeScript: not handling potential errors in functions.  The `divide` function throws an error if the divisor is 0, but the calling code doesn't handle this. This can lead to unexpected crashes or incorrect behavior.  The solution demonstrates how to use try-catch blocks to gracefully handle errors and prevent crashes.
